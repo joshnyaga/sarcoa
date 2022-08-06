@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --main-color: #e38528;
   --background: #222;
@@ -74,8 +74,11 @@ section {
   padding: 1rem 5%;
   min-height: 100vh;
 }
-
-
+.heading {
+  text-align: center;
+  padding: 2rem 0rem;
+  color: var(--main-color);
+}
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -182,7 +185,7 @@ section {
 }
 
 .services .box-container .box img {
-  width:  100%;
+  width: 100%;
 }
 
 .services .box-container .box h3 {
@@ -209,8 +212,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap:  1rem;
-
+  gap: 1rem;
 }
 
 .about .column .image {
@@ -239,8 +241,6 @@ section {
 .about .column .content .buttons a:last-child {
   margin-left: 2rem;
 }
-
-
 
 .contact {
   display: flex;
@@ -323,7 +323,6 @@ section {
   flex-wrap: wrap;
 }
 
-.
 @media (max-width: 768px) {
   .header-home label {
     visibility: visible;
