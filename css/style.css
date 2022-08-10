@@ -317,13 +317,24 @@ section {
 .footer {
   padding-top: 3rem;
   background: var(--background);
+  text-align: center;
+  color: #fff;
 }
 
-.footer .box-container {
+.footer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
-
+.footer h1 {
+  text-align: center;
+}
+.footer p a {
+  color: thistle;
+  font-size: 2rem;
+}
 @media (max-width: 768px) {
   .header-home label {
     visibility: visible;
